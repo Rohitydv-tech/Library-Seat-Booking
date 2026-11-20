@@ -8,9 +8,7 @@ Frontend demo (HTML5, CSS3, vanilla JavaScript, LocalStorage). No build step.
 3. Right-click `index.html` and choose **Open with Live Server**.
 4. To reset demo data: DevTools > Application > Local Storage > delete `lpu_lib_v1` and `lpu_lib_session`, then refresh.
 
-## Demo logins
-- Student: `12345678` / `student123` (also 12345679, 12345680, 12345681)
-- Admin: `admin` / `admin123` (open "Admin login" on the login page)
+
 
 ## Files
 - `index.html` page shell · `style.css` design (LPU orange and blue, animations) · `firebase.js` optional sync · `script.js` all logic · `assets/` library photos
