@@ -1,6 +1,6 @@
 :root{--red:#f47c20;--dark:#0b3b7a;--blue:#1565b0;--ink:#1c2430;--mute:#5d6877;--tint:#fff4e9;--line:#f0dcc6;--ok:#1d7a4a;--bg:#fff}
 *{box-sizing:border-box}
-body{margin:0;font:16px/1.5 "Source Sans 3",system-ui,sans-serif;color:var(--ink);background:linear-gradient(#ffffffe8,#fff6eded),url(assets/bg.jpg) center/cover fixed}
+body{margin:0;font:16px/1.5 "Source Sans 3",system-ui,sans-serif;color:var(--ink);background:linear-gradient(#ffffffe8,#fff6eded),url(bg.jpg) center/cover fixed}
 h1,h2,h3,.brand b{font-family:"Bricolage Grotesque",system-ui,sans-serif;margin:0}
 h2{font-size:1.2rem;margin-bottom:.6rem}
 a{color:var(--blue)}
@@ -24,7 +24,7 @@ textarea{min-height:90px}
 #toast.show{transform:translate(-50%,0)}#toast.ok{background:var(--ok)}#toast.err{background:#a30000}
 /* auth */
 .auth{display:grid;grid-template-columns:1.1fr 1fr;min-height:100vh}
-.hero{background:linear-gradient(#0b3b7acc,#0b3b7a99 55%,#f47c20b3),url(assets/bg.jpg) center/cover;color:#fff;display:flex;flex-direction:column;justify-content:flex-end;padding:3rem}
+.hero{background:linear-gradient(#0b3b7acc,#0b3b7a99 55%,#f47c20b3),url(bg.jpg) center/cover;color:#fff;display:flex;flex-direction:column;justify-content:flex-end;padding:3rem}
 .hero h1{font-size:clamp(2rem,4vw,3.4rem);line-height:1.05;font-weight:800}
 .hero p{max-width:34ch;font-size:1.1rem}
 .authbox{padding:3rem clamp(1.2rem,5vw,4rem);display:flex;flex-direction:column;justify-content:center;max-width:540px}
